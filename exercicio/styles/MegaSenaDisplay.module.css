@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:#222; 
+    color:#fff; 
+    height: 100vh;
+}
+
+.button{
+    padding: 10px;
+    border:solid 1px;
+}
+
+.numeros{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50 px;
+    width: 50 px;
+    border-radius: 25px;
+    background-color: #111;
+    color:#fff;
+    font-size: 2rem;
+    padding: 20px;
+}

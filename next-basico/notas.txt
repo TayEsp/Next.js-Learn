@@ -1,0 +1,22 @@
+API
+- vantagens de construir sua propia API, estar dentro da mesma aplicação, assim vc
+nao precisa se preocupar os cores
+- temos uma funcao com requisição e resposta, geralmente mandando por json
+- baixar o postman
+
+- Com a funcao de req.method podemos pegar qual tipo de requisição esta sendo feita,
+assim podemos trata-la de diferentes formas. Ex:
+
+export default function metodo(req, res){
+    if(req.method === "GET"){
+        res.status(200).json({pedido: "Voce requisitou um GET"})
+    }else{
+        res.status(200).json({pedido: "Voce requisitou outra coisa"})
+    }
+
+    
+}
+
+- Se quiser procurar numeros de requisições HTML só procurar no google como esta ai
+
+- como chamar uma API e setar um estado

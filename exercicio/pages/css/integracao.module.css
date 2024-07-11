@@ -1,0 +1,22 @@
+/*Id css*/
+#integracao{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.vermelha{
+    color:#f30;
+}
+
+.azul{
+    color:#03f;
+}
+
+.branca{
+    background-color: #444;
+    color: #fff;
+}
